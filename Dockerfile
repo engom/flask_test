@@ -6,6 +6,8 @@ COPY hello.py requirements.txt ./
 
 RUN pip3 install -r requirements.txt
 
+EXPOSE 8000
+
 RUN export FLASK_APP=hello
 
-CMD ["flask", "run"]
+CMD ["flask", "run", "--host", "0.0.0.0"]
