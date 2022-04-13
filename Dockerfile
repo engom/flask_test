@@ -10,4 +10,4 @@ EXPOSE 8000
 
 RUN export FLASK_APP=hello
 
-CMD ["flask", "run", "--host", "0.0.0.0"]
+CMD ["flask", "run", "--host=0.0.0.0"]
