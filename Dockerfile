@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-RUN sudo apt-get update && apt-get install python3 python3-pip -y
+RUN apt-get update && apt-get install python3 python3-pip -y
 
 COPY hello.py requirements.txt ./
 
