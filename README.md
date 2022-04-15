@@ -1,1 +1,2 @@
-# flask_test
+# flask
+Tutorial and ptractice as DSTI aws course.
